@@ -12,6 +12,7 @@ data/base/.DS_Store
 data/.DS_Store
 .DS_Store
 /data
+/logs
 .DS_Store
 data/.DS_Store
 data/global/pg_control
