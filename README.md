@@ -4,7 +4,7 @@ This project provides a Docker Compose setup for PostgreSQL with SSL and pgAdmin
 
 - Self-signed SSL certificate generation
 - Preloaded schema and mock data
-- pgAdmin 4 with a preconfigured server connection
+- pgAdmin 4 with a pre-configured server connection
 
 ## Quick Setup
 
@@ -50,3 +50,4 @@ Login: `admin@local.com` / `admin123` (skipped as pre-configured)
 ## Clean up
 docker-compose down
 rm -rf ./data
+rm -rf ./log
