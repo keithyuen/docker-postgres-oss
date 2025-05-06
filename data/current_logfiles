@@ -1,2 +1,0 @@
-stderr /var/log/postgresql/postgresql.log
-csvlog /var/log/postgresql/postgresql.csv
