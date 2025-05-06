@@ -6,7 +6,7 @@ This project provides a Docker Compose setup for PostgreSQL with SSL and pgAdmin
 - Preloaded schema and mock data
 - pgAdmin 4 with a preconfigured server connection
 
-## 🚀 Quick Setup
+## Quick Setup
 
 ### 1. Prepare folders
 
@@ -41,7 +41,7 @@ docker-compose up -d
 Access pgAdmin at: [http://localhost:5050](http://localhost:5050)  
 Login: `admin@local.com` / `admin123`
 
-## 🔧 Notes
+## Notes
 
 - pgAdmin connects to the PostgreSQL container using hostname `postgres`
 - SSL certificates are generated if they don't exist

@@ -1,0 +1,14 @@
+data/global/pg_control
+logs/postgresql.log
+logs/postgresql.csv
+data/postmaster.pid
+data/pg_wal/000000010000000000000001
+data/pg_stat_tmp/pgss_query_texts.stat
+data/global/pg_internal.init
+data/global/pg_control
+data/base/5/pg_internal.init
+data/base/1/pg_internal.init
+data/base/.DS_Store
+data/.DS_Store
+.DS_Store
+/data
