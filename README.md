@@ -1,4 +1,4 @@
-# PostgreSQL + pgAdmin + SSL (Docker Compose)
+# PostgreSQL + pgAdmin on Docker Compose
 
 This project provides a Docker Compose setup for PostgreSQL with SSL and pgAdmin 4. It includes:
 
@@ -38,8 +38,8 @@ or
 docker-compose up -d
 ```
 
-Access pgAdmin at: [http://localhost:5050](http://localhost:5050)  
-Login: `admin@local.com` / `admin123`
+Access pgAdmin at: [http://localhost:5050](http://localhost:5050) or specified host 
+Login: `admin@local.com` / `admin123` (skipped as pre-configured)
 
 ## Notes
 
