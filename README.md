@@ -45,6 +45,10 @@ Login: `admin@local.com` / `admin123` (skipped as pre-configured)
 
 - pgAdmin connects to the PostgreSQL container using hostname `postgres`
 - SSL certificates are generated if they don't exist
+- SSL certiticates might not have the required permissions on your work computer. Fixed by running: 
+```bash
+chmod 600 ./certs/server.key
+```
 - init.sql runs only on first database initialization
 
 ## Clean up
