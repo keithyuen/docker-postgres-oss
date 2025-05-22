@@ -52,6 +52,9 @@ chmod 600 ./certs/server.key
 - init.sql runs only on first database initialization
 
 ## Clean up
+Clean up data directories after use. If not, the new data will not be initiated by initdb.
+```bash
 docker-compose down
 rm -rf ./data
 rm -rf ./log
+```
